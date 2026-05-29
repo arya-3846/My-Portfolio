@@ -12,7 +12,7 @@ function Home(){
         viewport={{once:true}}
          className="text-2xl text-white min-h-screen w-full flex flex-col py-15 px-5 md:flex-row sm:justify-center font-mono">
             <div className="sm:mt-20 flex flex-col justify-center items-center " >
-                <h1 className="font-bold text-3xl lg:text-6xl sm:mt-5 lg:mt-12 font-mono "><span className="text-blue-700 font-mono">HI, I AM</span> ARYA PANDEY✌️</h1> 
+                <h1 className="font-bold text-xl lg:text-6xl sm:mt-5 lg:mt-12 font-mono "><span className="text-blue-700 font-mono">HI, I AM</span> ARYA PANDEY✌️</h1> 
                 <div className="text-sm sm:text-md md:text-xl">
                 <p className="flex justify-center items-center mt-5 text-blue-500  ">
                     I turn complex ideas into seamless, high-impact web experiences by <br /> building modern, scalable and lightning fast web <br /> apps that  make a diffrence.
