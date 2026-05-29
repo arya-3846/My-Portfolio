@@ -5,6 +5,7 @@ import { Link } from "react-scroll"
 function Home(){
     return(
        <section id="home" className="min-h-screen">
+        
          <motion.div
         initial={{opacity:0, y:-60}} 
         whileInView={{opacity:1, y:0}}
@@ -12,11 +13,13 @@ function Home(){
         viewport={{once:true}}
          className="text-2xl text-white min-h-screen w-full flex flex-col py-15 px-5 md:flex-row sm:justify-center font-mono">
             <div className="sm:mt-20 flex flex-col justify-center items-center " >
-                <h1 className="font-bold text-xl lg:text-6xl sm:mt-5 lg:mt-12 font-mono "><span className="text-blue-700 font-mono">HI, I AM</span> ARYA PANDEY✌️</h1> 
+                <h1 className="font-bold text-xl sm:text-3xl lg:text-6xl sm:mt-5 lg:mt-12 font-mono "><span className="text-blue-700 font-mono">HI, I AM</span> ARYA✌️</h1> 
                 <div className="text-sm sm:text-md md:text-xl">
-                <p className="flex justify-center items-center mt-5 text-blue-500  ">
-                    I turn complex ideas into seamless, high-impact web experiences by <br /> building modern, scalable and lightning fast web <br /> apps that  make a diffrence.
+                <div className="mt-5  text-blue-600 " >
+                    <p>
+                    I turn complex ideas into seamless, high-impact web experiences by<br /> building mordern, scalable and lightning fast web <br /> apps that make a diffrence. 
                 </p>
+                </div>
              <div className="mt-6 mb-4 flex justify-center items-center text-sm sm:text-2xl font-semibold lg:text-4xl">
                  <h1>
                      

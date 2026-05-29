@@ -30,7 +30,7 @@ function About(){
          </div>
 
        <div className="flex flex-col gap-2 justify-center items-center flex-wrap text-white ">
-         
+        
         <motion.div  
           whileHover={{y:-4}}
          className="h-15 w-50 border bg-transparent border-blue-700 shadow-2xl  rounded-lg px-3 py-4 text-sm text-center align-middle sm:w-70 sm:text-md"> <span>Pursuing- B.Tech CSE 2024-28</span> <span></span>  </motion.div>
