@@ -9,7 +9,7 @@ function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="text-white font-mono sticky top-0 z-50 backdrop-blur-xl py-0.5">
+        <div className="text-white font-mono sticky top-0 z-50 backdrop-blur-xl py-0.5 mt-4">
 
             <div className="flex items-center justify-between px-5 py-1 sm:px-10 xl:px-20 ">
 

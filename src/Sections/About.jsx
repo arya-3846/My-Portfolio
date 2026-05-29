@@ -37,10 +37,10 @@ function About(){
  <div className="flex flex-col sm:flex-row gap-3">
             <motion.div
                whileHover={{y:-4}}
-             className="h-15 w-50 border bg-transparent e border-blue-700 shadow-2xl  rounded-lg px-3 py-5 text-sm"> <span>Senior Secondary</span> 83.4%  </motion.div>
+             className="h-15 w-50 border bg-transparent e border-blue-700 shadow-2xl  rounded-lg px-3 py-5 text-sm"> <span>SSC-</span> 83.4%  </motion.div>
         <motion.div 
          whileHover={{y:-4}}
-        className="h-15 w-50 border bg-transparent  border-blue-700 shadow-2xl  rounded-lg px-3 py-5 text-sm"> <span>Higher Secondary</span> 82.4% </motion.div>
+        className="h-15 w-50 border bg-transparent  border-blue-700 shadow-2xl  rounded-lg px-3 py-5 text-sm"> <span>HSC-</span> 82.4% </motion.div>
           </div>
        </div>
 
