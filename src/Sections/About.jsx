@@ -37,10 +37,10 @@ function About(){
  <div className="flex flex-col sm:flex-row gap-3">
             <motion.div
                whileHover={{y:-4}}
-             className="h-15 w-50 border bg-transparent e border-blue-700 shadow-2xl  rounded-lg px-3 py-5 text-sm"> <span>SSC-</span> 83.4%  </motion.div>
+             className="h-15 w-50 border bg-transparent e border-blue-700 shadow-2xl text-center  rounded-lg px-3 py-5 text-sm"> <span>SSC-</span> 83.4%  </motion.div>
         <motion.div 
          whileHover={{y:-4}}
-        className="h-15 w-50 border bg-transparent  border-blue-700 shadow-2xl  rounded-lg px-3 py-5 text-sm"> <span>HSC-</span> 82.4% </motion.div>
+        className="h-15 w-50 border bg-transparent  border-blue-700 shadow-2xl text-center  rounded-lg px-3 py-5 text-sm"> <span>HSC-</span> 82.4% </motion.div>
           </div>
        </div>
 
@@ -56,7 +56,7 @@ function About(){
         transition={{duration:0.3, ease:easeInOut}}
         viewport={{once:true}}
           className="flex  sm:flex-row justify-center items-center flex-wrap gap-5 md:gap-10 xl:gap-30 mt-9 text-white text-2xl">
-           <motion.div whileHover={{y:-10}} className="h-30 w-50 border-2 lg:w-70 text-center flex justify-center items-center border-blue-700 shadow-2xl shadow-blue-700 animate-pulse rounded-lg ">6+ certifications</motion.div>
+           <motion.div whileHover={{y:-10}} className="h-30 w-50 border-2 lg:w-70 text-center flex justify-center items-center border-blue-700 shadow-2xl shadow-blue-700 animate-pulse rounded-lg ">6+ certificates</motion.div>
         <motion.div whileHover={{y:-10}} className="h-30 w-50 border-2 lg:w-70 text-center flex justify-center items-center border-blue-700 shadow-2xl shadow-blue-700 animate-pulse rounded-lg">6+ Projects</motion.div>
         <motion.div whileHover={{y:-10}} className="h-30 w-50 border-2 lg:w-70 text-center flex justify-center items-center border-blue-700 shadow-2xl shadow-blue-700 animate-pulse rounded-lg">Endless Thoughts</motion.div>
       </motion.div>
