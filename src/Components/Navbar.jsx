@@ -50,9 +50,9 @@ function Navbar() {
             {open && (
                
                     <motion.ul 
-                initial={{opacity:0, x:-100}}
+                initial={{opacity:0, x:-20}}
                 animate={{opacity:1, x:0 }}
-                exit={{opacity:0, y:-100}}
+                exit={{opacity:0, y:-20}}
                 
                 transition={{ease:easeInOut, duration:0.3}}
                 className="lg:hidden flex flex-col gap-6 px-10 pb-6 text-xl bg-black/30 backdrop-blur-sm">

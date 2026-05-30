@@ -2,14 +2,15 @@ import Avator from "../assets/Avator.webp"
 import {Typewriter} from "react-simple-typewriter"
 import {animate, easeInOut, motion} from "framer-motion"
 import { Link } from "react-scroll"
+import { FaReact } from "react-icons/fa";
 function Home(){
     return(
        <section id="home" className="min-h-screen">
         
          <motion.div
-        initial={{opacity:0, y:-60}} 
+        initial={{opacity:0, y:-20}} 
         whileInView={{opacity:1, y:0}}
-        transition={{duration:0.8}}
+        transition={{duration:0.4}}
         viewport={{once:true}}
          className="text-2xl text-white min-h-screen w-full flex flex-col py-15 px-5 md:flex-row sm:justify-center font-mono">
             <div className="sm:mt-20 flex flex-col justify-center items-center " >
@@ -44,11 +45,14 @@ function Home(){
                  </h1>
                 
                        </div>
+                       <div>
+                       <div className=""><FaReact/></div>
+                       </div>
 
                 <motion.div
                 
                 className="hidden sm:flex gap-7 justify-center items-center ">
-
+ 
 
                     <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link to="projects" smooth={true} duration={500}> <button id="button" className="bg-blue-600 px-6 py-3 hover:cursor-pointer hover:shadow-2xl transition-all duration-500 ease-in-out rounded-xl mt-10 ">Projects</button></Link></motion.div>
                     <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link smooth={true} duration={500}><button id="button" className="border-2 px-6 py-3 hover:cursor-pointer hover:shadow-2xl transition-all duration-500 ease-in-out rounded-xl mt-10 hover:border-blue-600 hover:text-blue-600">Resume</button></Link></motion.div>
@@ -60,7 +64,7 @@ function Home(){
                   </div> 
              </div>
         <motion.div 
-        initial={{opacity:0, x:40}}
+        initial={{opacity:0, x:20}}
         whileInView={{opacity:1, x:0}}
         transition={{duration:0.4, ease:easeInOut}}
         viewport={{once:true}}
