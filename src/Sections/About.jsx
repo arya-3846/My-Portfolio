@@ -12,9 +12,9 @@ function About(){
         className="flex justify-center items-center flex-col md:flex-row ">
           
            <motion.div 
-           initial={{opacity:0, x:-200,}}
+           initial={{opacity:0, x:-40,}}
            whileInView={{opacity:1, x:10, x:0}}
-           transition={{duration:1, ease:easeInOut}}
+           transition={{duration:0.4, ease:easeInOut}}
            viewport={{once:true}}
            >
             <img src={photo} alt="" className="h-40 sm:h-50 md:h-60 ml-3 rounded-full shadow-2xl shadow-blue-700 object-cover" />
@@ -51,9 +51,9 @@ function About(){
         </motion.div>
         </motion.div>
          <motion.div
-         initial={{opacity:0, y:-60}} 
+         initial={{opacity:0, y:-30}} 
         whileInView={{opacity:1, y:0}}
-        transition={{duration:0.6, ease:easeInOut}}
+        transition={{duration:0.3, ease:easeInOut}}
         viewport={{once:true}}
           className="flex  sm:flex-row justify-center items-center flex-wrap gap-5 md:gap-10 xl:gap-30 mt-9 text-white text-2xl">
            <motion.div whileHover={{y:-10}} className="h-30 w-50 border-2 lg:w-70 text-center flex justify-center items-center border-blue-700 shadow-2xl shadow-blue-700 animate-pulse rounded-lg ">6+ certifications</motion.div>

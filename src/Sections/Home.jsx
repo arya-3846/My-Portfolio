@@ -60,9 +60,9 @@ function Home(){
                   </div> 
              </div>
         <motion.div 
-        initial={{opacity:0, x:200}}
+        initial={{opacity:0, x:40}}
         whileInView={{opacity:1, x:0}}
-        transition={{duration:0.7, ease:easeInOut}}
+        transition={{duration:0.4, ease:easeInOut}}
         viewport={{once:true}}
         className="flex justify-center items-center ">
                  <img src={Avator} alt="" className="h-80 lg:h-170 md:h-120 sm:w-120 " />

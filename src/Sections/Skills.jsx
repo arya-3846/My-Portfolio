@@ -17,18 +17,18 @@ function Skills(){
             <div className="text-2xl text-white min-h-screen w-full px-18 ">
                 <motion.div
                 
-                initial={{opacity:0, y:-100}}
+                initial={{opacity:0, y:-30}}
                 whileInView={{opacity:1, y:0}}
-                transition={{ease:easeInOut, duration:0.8,}}
+                transition={{ease:easeInOut, duration:0.4,}}
                 viewport={{once:true}}
                 className="flex justify-center text-3xl font-bold py-4 mb-10 animate-pulse text-blue-600">My Skills</motion.div>
              
              
 
               <motion.div
-               initial={{opacity:0, y:-100}}
+               initial={{opacity:0, y:-30}}
                 whileInView={{opacity:1, y:0}}
-                transition={{ease:easeInOut, duration:1}}
+                transition={{ease:easeInOut, duration:0.4}}
                 viewport={{once:true}}
                className="flex  justify-center items-center flex-wrap gap-4 sm:gap-10 rounded-md ">
                
