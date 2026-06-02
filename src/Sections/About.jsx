@@ -9,6 +9,7 @@ function About(){
         whileInView={{opacity:1, y:0}}
         transition={{duration:0.6, ease:easeInOut}}
         viewport={{once:true}}
+        
         className="flex justify-center items-center flex-col md:flex-row ">
           
            <motion.div 
@@ -17,7 +18,7 @@ function About(){
            transition={{duration:0.3, ease:easeInOut}}
            viewport={{once:true}}
            >
-            <img src={photo} alt="" className="h-40 sm:h-50 md:h-60 ml-3 rounded-full shadow-2xl shadow-blue-700 object-cover" />
+            <img src={photo} loading="lazy" alt="" className="h-40 sm:h-50 md:h-60 ml-3 rounded-full shadow-2xl shadow-blue-700 object-cover" />
           </motion.div>
 
         <motion.div 

@@ -30,22 +30,36 @@ function Skills(){
                 whileInView={{opacity:1, y:0}}
                 transition={{ease:easeInOut, duration:0.4}}
                 viewport={{once:true}}
-               className="flex  justify-center items-center flex-wrap gap-4 sm:gap-10 rounded-md md:px-14 ">
-               
-               
-                <div className="border-2 border-blue-800 font-light shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center hover:text-orange-500 hover:shadow-orange-400 ease-in-out duration-400 cursor-pointer flex-col text-center "> <div><FaHtml5 size={40} /></div> <div className="mt-2"> HTML</div>   </div>
-                 <div className=" border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-blue-800 hover:shadow-blue-800 ease-in-out duration-400 cursor-pointer flex-col text-center"> <div><FaCss3 size={40} />  </div> <div className="mt-2"> CSS </div></div>
-                  <div className=" border-2 border-blue-800 shadow-2xl  shadow-blue-600/30  h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-yellow-500 hover:shadow-yellow-400 ease-in-out duration-400 cursor-pointer flex-col text-center"><div>  <FaJs size={40} /></div> <div  className="mt-2"> JS </div></div>
-                   <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-blue-400 hover:shadow-blue-400 ease-in-out duration-400 cursor-pointer flex-col text-center"> <div> <FaReact size={40} /> </div> <div className="mt-2">REACT </div></div>
-                    <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-blue-100 hover:shadow-blue-100 ease-in-out duration-400 cursor-pointer flex-col text-center">  <TbBrandCpp size={40} /> </div>
-                     <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-cyan-500 hover:shadow-cyan-500 ease-in-out duration-400 cursor-pointer flex-col text-center">  <div><RiTailwindCssFill size={40} /></div> <div className="mt-2">Tailwind</div> </div>
-                       <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center font-light  hover:text-purple-700 hover:shadow-purple-700 ease-in-out duration-400 cursor-pointer flex-col text-center"><div><TbBrandFramerMotion  size={40}/></div><div className="mt-2">Framer</div></div>
-                           <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-gray-500 hover:shadow-gray-400 ease-in-out duration-400 cursor-pointer flex-col text-center"> <div><FaGithub size={40} /> </div> <div className="mt-2">GITHUB</div> </div>
-                               <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-red-500 hover:shadow-red-700 ease-in-out duration-400 cursor-pointer flex-col text-center"><div> <SiNetlify size={40}/> </div> <div className="mt-2"> Netlify </div></div>
+               className="flex  justify-center md:justify-between items-center flex-wrap gap-4 sm:gap-10 rounded-md md:px-14 ">
+
+               <div className="min-h-screen border-2 w-80 border-blue-700">
+                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center">Frontend</div>
+               <div className="px-6 py-5 gap-8 flex justify-start flex-col">
+               <div className="h-auto w-full px-3 py-2 bg-blue-500/20"> <FaHtml5 className="text-orange-700"/></div>
+                <FaCss3 className="text-blue-600"/>
+                <FaJs className="text-yellow-400"/>
+                <FaReact className="text-blue-300"/>
+                <TbBrandFramerMotion className="text-purple-600"/>
+               </div>
+               </div>
 
 
-      
-            
+
+
+
+               <div className="min-h-screen border w-80 border-blue-700">
+                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center">Backend</div>
+               </div>
+
+
+
+
+
+
+               <div className="min-h-screen border w-80 border-blue-700">
+                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center">Languages</div>
+               </div>
+
               </motion.div>
 
 
@@ -54,3 +68,16 @@ function Skills(){
     )
 }
 export default Skills
+
+
+
+ 
+                // <div className="border-2 border-blue-800 font-light shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center hover:text-orange-500 hover:shadow-orange-400 ease-in-out duration-400 cursor-pointer flex-col text-center "> <div><FaHtml5 size={40} /></div> <div className="mt-2"> HTML</div>   </div>
+                //  <div className=" border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-blue-800 hover:shadow-blue-800 ease-in-out duration-400 cursor-pointer flex-col text-center"> <div><FaCss3 size={40} />  </div> <div className="mt-2"> CSS </div></div>
+                //   <div className=" border-2 border-blue-800 shadow-2xl  shadow-blue-600/30  h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-yellow-500 hover:shadow-yellow-400 ease-in-out duration-400 cursor-pointer flex-col text-center"><div>  <FaJs size={40} /></div> <div  className="mt-2"> JS </div></div>
+                //    <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-blue-400 hover:shadow-blue-400 ease-in-out duration-400 cursor-pointer flex-col text-center"> <div> <FaReact size={40} /> </div> <div className="mt-2">REACT </div></div>
+                //     <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-blue-100 hover:shadow-blue-100 ease-in-out duration-400 cursor-pointer flex-col text-center">  <TbBrandCpp size={40} /> </div>
+                //      <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-cyan-500 hover:shadow-cyan-500 ease-in-out duration-400 cursor-pointer flex-col text-center">  <div><RiTailwindCssFill size={40} /></div> <div className="mt-2">Tailwind</div> </div>
+                //        <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center font-light  hover:text-purple-700 hover:shadow-purple-700 ease-in-out duration-400 cursor-pointer flex-col text-center"><div><TbBrandFramerMotion  size={40}/></div><div className="mt-2">Framer</div></div>
+                //            <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-gray-500 hover:shadow-gray-400 ease-in-out duration-400 cursor-pointer flex-col text-center"> <div><FaGithub size={40} /> </div> <div className="mt-2">GITHUB</div> </div>
+                //                <div className="border-2 border-blue-800 shadow-2xl  shadow-blue-600/30 h-30 w-40 rounded-md md:w-80 flex justify-center items-center  font-light  hover:text-red-500 hover:shadow-red-700 ease-in-out duration-400 cursor-pointer flex-col text-center"><div> <SiNetlify size={40}/> </div> <div className="mt-2"> Netlify </div></div>

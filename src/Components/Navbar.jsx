@@ -57,17 +57,18 @@ function Navbar() {
                 transition={{ease:easeInOut, duration:0.3}}
                 className="lg:hidden flex flex-col gap-6 px-10 pb-6 text-xl bg-black/30 backdrop-blur-sm">
 
-                  <Link to="home" smooth={true} duration={1000}>  <li><a href="#home">Home</a></li></Link>
-                    <Link to="about" smooth={true} duration={1000}><li><a href="#about">About</a></li></Link>
-                    <Link to="projects" smooth={true} duration={1000}><li><a href="#projects">Projects</a></li></Link>
-                    <Link to="skills" smooth={true} duration={1000}><li><a href="#skills">Skills</a></li></Link>
-                    <Link to="contact" smooth={true} duration={1000}><li><a href="#contact">Contact</a></li></Link>
+                  <Link to="home" smooth={true} duration={300}>  <li><a href="#home">Home</a></li></Link>
+                    <Link to="about" smooth={true} duration={300}><li><a href="#about">About</a></li></Link>
+                    <Link to="projects" smooth={true} duration={300}><li><a href="#projects">Projects</a></li></Link>
+                    <Link to="skills" smooth={true} duration={300}><li><a href="#skills">Skills</a></li></Link>
+                    <Link to="contact" smooth={true} duration={300}><li><a href="#contact">Contact</a></li></Link>
 
                 </motion.ul>
                
             )}
             </AnimatePresence>
           <motion.div
+          smooth="true"
           transition={{ease:easeInOut}}
           style={{
             scaleX:scrollYProgress

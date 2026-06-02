@@ -3,6 +3,10 @@ import {Typewriter} from "react-simple-typewriter"
 import {animate, easeInOut, motion} from "framer-motion"
 import { Link } from "react-scroll"
 import { FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { DiMongodb } from "react-icons/di";
+import { SiCplusplus } from "react-icons/si";
 function Home(){
     return(
        <section id="home" className="min-h-screen">
@@ -45,8 +49,13 @@ function Home(){
                  </h1>
                 
                        </div>
-                       <div>
-                       <div className=""><FaReact/></div>
+                       <div  className=" px-2 py-3 flex flex-wrap gap-3 justify-center items-center ">
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-400 hover:border-blue-400 cursor-pointer transition-all ease-in-out "><FaReact className="text-blue-400"/><span> React</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-400 hover:border-green-400 cursor-pointer transition-all ease-in-out"><FaNodeJs  className="text-green-400"/><span> NodeJS</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 cursor-pointer transition-all ease-in-out"><RiNextjsFill /><span> NextJS</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-700 hover:border-green-700 cursor-pointer transition-all ease-in-out"><DiMongodb className="text-green-600" /><span> MongoDB</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-300 hover:border-blue-300 cursor-pointer transition-all ease-in-out"><SiCplusplus /><span> C++</span></motion.div>
+                       
                        </div>
 
                 <motion.div
@@ -54,8 +63,8 @@ function Home(){
                 className="hidden sm:flex gap-7 justify-center items-center ">
  
 
-                    <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link to="projects" smooth={true} duration={500}> <button id="button" className="bg-blue-600 px-6 py-3 hover:cursor-pointer hover:shadow-2xl transition-all duration-500 ease-in-out rounded-xl mt-10 ">Projects</button></Link></motion.div>
-                    <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link smooth={true} duration={500}><button id="button" className="border-2 px-6 py-3 hover:cursor-pointer hover:shadow-2xl transition-all duration-500 ease-in-out rounded-xl mt-10 hover:border-blue-600 hover:text-blue-600">Resume</button></Link></motion.div>
+                    <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link to="projects" smooth={true} duration={500}> <button id="button" className="bg-blue-600 px-6 py-3 hover:cursor-pointer hover:shadow-lg transition-all duration-500 ease-in-out rounded-xl mt-10 ">Projects</button></Link></motion.div>
+                    <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link smooth={true} duration={500}><button id="button" className="border-2 px-6 py-3 hover:cursor-pointer hover:shadow-lg transition-all duration-500 ease-in-out rounded-xl mt-10 hover:border-blue-600 hover:text-blue-600">Resume</button></Link></motion.div>
                 </motion.div>
                     
 
@@ -69,7 +78,7 @@ function Home(){
         transition={{duration:0.4, ease:easeInOut}}
         viewport={{once:true}}
         className="flex justify-center items-center ">
-                 <img src={Avator} alt="" className="h-80 lg:h-170 md:h-120 sm:w-120 " />
+                 <img src={Avator} loading="eager" fetch-priority="high" alt="" className="h-80 lg:h-170 md:h-120 sm:w-120 " />
          </motion.div>
               </motion.div>
        </section>

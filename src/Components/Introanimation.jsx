@@ -4,8 +4,7 @@ import {motion , AnimatePresence} from "motion/react"
 function Introanimation({onFinish}){
      const greetings=useMemo(()=>[
         "Hello", "नमस्ते", "Hola", "Bonjour",
-      "Ciao", "Olá", "Здравствуйте",
-      "Merhaba", "Γειά", "Hej", "Hallo", "Salam", "Welcome"
+      "Ciao", "Hallo", "Welcome", "How r u?"
 
      ], [])
 
@@ -14,11 +13,11 @@ function Introanimation({onFinish}){
 
      useEffect(()=>{
         if(index<greetings.length-1){
-            const id= setInterval(()=> setIndex((i)=>i+1), 180);
+            const id= setInterval(()=> setIndex((i)=>i+1), 200);
             return()=>  clearInterval(id);  
         }
         else{
-            const t= setTimeout(()=> setVisible(false), 1000);
+            const t= setTimeout(()=> setVisible(false), 500);
             return()=> clearTimeout(t);
         }
      }, [index, greetings.length])
@@ -32,7 +31,7 @@ function Introanimation({onFinish}){
             exit={{y:"-100%", 
             }} 
              transition={{
-                duration:1.5,
+                duration:0.6,
                 ease:[0.22,1,0.36,1],
              }
             }
