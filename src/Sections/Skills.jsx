@@ -18,8 +18,8 @@ import { FaPython } from "react-icons/fa";
 function Skills(){
    
     return(
-        <section id="skills" className="py-15  sm:mt-0 lg:mt-15 font-mono">
-            <div className="text-2xl text-white min-h-screen w-full px-3 ">
+        <section id="skills" className="py-15  sm:mt-0 lg:mt-15 font-mono ">
+            <div className="text-2xl text-white min-h-screen w-full   ">
                 <motion.div
                 
                 initial={{opacity:0, y:-30}}
@@ -29,7 +29,8 @@ function Skills(){
                 className="flex justify-center items-center text-3xl font-bold py-4 mb-10 animate-pulse text-blue-600">Techs I work upon</motion.div>
              
              
-
+                 <div className="flex justify-center items-center flex-row">
+                    
               <motion.div
                initial={{opacity:0, y:-30}}
                 whileInView={{opacity:1, y:0}}
@@ -42,7 +43,7 @@ function Skills(){
                transition={{easeInOut, duration:0.3}}
                >
                 
-               <div  className="h-auto md:min-h-screen border-2 w-100 border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-300 bg-blue-800/10 rounded-lg">
+               <div  className="h-auto md:min-h-screen border-2 w-70 lg:w-100 border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-300 bg-blue-800/10 rounded-lg">
                 <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center rounded-lg">Frontend</div>
                <div className="px-10 py-5 gap-8 flex justify-start items-start sm:items-center flex-col ">
                <div className="h-auto w-full px-3 py-1 bg-blue-500/20 border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300  flex gap-4 rounded-lg items-center justify-center"> <FaHtml5 size={40} className="text-orange-700 text-center"/><div className="text-center">HTML</div></div>
@@ -63,7 +64,7 @@ function Skills(){
                whileHover={{y:-3}}
                transition={{easeInOut, duration:0.3}}
                >
-                 <div className="h-auto md:min-h-screen border-2 w-100 border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-400 bg-blue-800/10 rounded-lg">
+                 <div className="h-auto md:min-h-screen border-2 w-70 border-blue-500/20 lg:w-100 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-400 bg-blue-800/10 rounded-lg">
                 <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center rounded-lg">Backend</div>
                <div className="px-10 py-5 gap-8 flex justify-start items-start sm:items-center flex-col">
                <div className="h-auto w-full px-3 py-1 bg-blue-500/20 border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300  flex gap-4 rounded-lg items-center justify-center"> <FaNodeJs size={40} className="text-green-600 text-center"/><div className="text-center">Node.js</div></div>
@@ -84,7 +85,7 @@ function Skills(){
                whileHover={{y:-3}}
                transition={{easeInOut, duration:0.3}}
              >
-                 <div className="h-auto md:min-h-screen border-2 w-100 border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-400 bg-blue-800/10 rounded-lg">
+                 <div className="h-auto md:min-h-screen border-2 w-70 lg:w-100  border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-400 bg-blue-800/10 rounded-lg">
                 <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center rounded-lg">Langauges and Tools</div>
                <div className="px-10 py-5 gap-8 flex justify-start items-start sm:items-center flex-col">
                <div className="h-auto w-full px-3 py-1 bg-blue-500/20 border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300  flex gap-4 rounded-lg items-center justify-center"> <FaJs size={40} className="text-yellow-400 text-center"/><div className="text-center">Javascript</div></div>
@@ -98,6 +99,7 @@ function Skills(){
 
               </motion.div>
 
+                 </div>
 
         </div>
         </section>

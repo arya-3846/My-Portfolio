@@ -13,7 +13,7 @@ function Projects(){
         transition={{duration:0.6, ease:easeInOut}}
         viewport={{once:true}}
         id="projects" className="py-15 font-mono text-sm " >
-            <div className="text-2xl text-white  w-full">
+            <div className="text-2xl text-white  w-full ">
              <div className="flex justify-center items-center py-5 px-5">
                <div className=""> <h1 className="text-4xl mb-5 text-blue-600 fborder-blue-700 font-bold">My Projects</h1></div>
              </div>
@@ -24,7 +24,7 @@ function Projects(){
              transition={{easeInOut, duration:0.3}}
              >
               
-                <div className="h-110 w-60 sm:w-75 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg overflow-hidden"><img src={Netflix} className="rounded-lg h-1/2 object-cover" alt="" /> <div className="text-sm mt-2 px-2 ">A nextflix clone built using HTML and CSS only. Just for practise it was my first project </div>
+                <div className="h-110 w-70 sm:w-80 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg overflow-hidden"><img src={Netflix} className="rounded-lg h-1/2 object-cover" alt="" /> <div className="text-sm mt-2 px-2 ">A nextflix clone built using HTML and CSS only. Just for practise it was my first project </div>
                  <div className=" h-10 w-full">
                    <div className="flex gap-2 items-start text-center mt-3 px-2 flex-col">
 
@@ -54,7 +54,7 @@ function Projects(){
                 whileHover={{y:-3}} 
              transition={{easeInOut, duration:0.3}}
                >
-                  <div className="h-110 w-60 sm:w-75 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg"><img src={Todo} className="rounded-lg h-1/2 w-full" alt="" />   <div className="rounded-md text-sm mt-2 px-2"> Just a Todo- list app where u can add tasks with date and on completion delete it</div>
+                  <div className="h-110 w-70 sm:w-80 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg "><img src={Todo} className="rounded-lg h-1/2 w-full" alt="" />   <div className="rounded-md text-sm mt-2 px-2"> Just a Todo- list app where u can add tasks with date and on completion delete it</div>
                  <div className=" h-10 w-full mt-2">
                    <div className="flex gap-2 items-start text-center mt-3 px-2 flex-col">
 
@@ -85,7 +85,7 @@ function Projects(){
                  whileHover={{y:-3}} 
              transition={{easeInOut, duration:0.3}}
                  >
-                    <div className="h-110 w-60 sm:w-75 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg"><img src={Property} className="rounded-lg h-1/2 w-full" alt="" />  <div className="rounded-md text-sm mt-2 px-2"> A property investment website made with the help of Html and tailwind css only</div>
+                    <div className="h-110 w-70 sm:w-80 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg"><img src={Property} className="rounded-lg h-1/2 w-full" alt="" />  <div className="rounded-md text-sm mt-2 px-2"> A property investment website made with the help of Html and the Tailwind css only</div>
                    <div className=" h-10 w-full mt-2">
                    <div className="flex gap-2 items-start text-center mt-3 px-2 flex-col">
 
@@ -114,7 +114,7 @@ function Projects(){
               >
                 
 
-                    <div className="h-110 w-60 sm:w-75 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg"><img src={Portfolio} className="rounded-lg h-1/2 w-full " alt="" />  <div className="rounded-md text-sm mt-2 px-2"> A personal Portfolio website made using React,Tailwind,FramerMotion etc </div> 
+                    <div className="h-110 w-70 sm:w-80 border-2  border-blue-500/20  hover:border-blue-600 transition-all ease-in-out duration-400 hover:shadow-2xl/70 shadow-blue-800 rounded-lg"><img src={Portfolio} className="rounded-lg h-1/2 w-full " alt="" />  <div className="rounded-md text-sm mt-2 px-2"> A personal Portfolio website made using HTML, React, CSS, Tailwind, Framer Motion etc </div> 
                     <div className=" h-10 w-full mt-2">
                    <div className="flex gap-2 items-start text-center mt-3 px-2 flex-col">
 
@@ -127,7 +127,7 @@ function Projects(){
                        <div className="h-0.5 w-full bg-white"></div>
                      <div className="flex px-3 gap-4 justify-center py-3 mb-10">
                    <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600">Code</button>
-                      <a href="" className="text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg " target="_blank">View Project</a>
+                      <a href="https://my-portfolio-one-rho-56.vercel.app/" className="text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg " target="_blank">View Project</a>
                      </div>
                    </div>
                 </div>

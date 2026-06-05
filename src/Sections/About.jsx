@@ -3,7 +3,7 @@ import { easeInOut, motion } from "motion/react"
 
 function About(){
     return(
-       <section id="about" className="font-mono mt-8 min-h-screen w-full ">
+       <section id="about" className="font-mono mt-8 min-h-screen w-full  ">
         <motion.div
         initial={{opacity:0, y:-60}} 
         whileInView={{opacity:1, y:0}}

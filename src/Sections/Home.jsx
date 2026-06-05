@@ -9,7 +9,7 @@ import { DiMongodb } from "react-icons/di";
 import { SiCplusplus } from "react-icons/si";
 function Home(){
     return(
-       <section id="home" className="min-h-screen">
+       <section id="home" className="min-h-screen ">
         
          <motion.div
         initial={{opacity:0, y:-20}} 
@@ -31,7 +31,7 @@ function Home(){
                        <span>
                        <motion.div
                        transition={{ease:easeInOut, duration:2}} 
-                       className="h-auto w-auto px-5 bg-blue-700/10 py-2 rounded-lg mask-r-from-neutral-100 ">
+                       className="h-auto w-auto px-5 bg-blue-700/10 py-2  rounded-lg mask-r-from-neutral-100 ">
                         <span className="text-blue-700 ">I'm a </span>
                          <Typewriter
                         smooth
@@ -49,12 +49,12 @@ function Home(){
                  </h1>
                 
                        </div>
-                       <div  className=" px-2 py-3 flex flex-wrap gap-3 justify-center items-center ">
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-400 hover:border-blue-400 cursor-pointer transition-all ease-in-out duration-400 "><FaReact className="text-blue-400"/><span> React</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-400 hover:border-green-400 cursor-pointer transition-all duration-400 ease-in-out"><FaNodeJs  className="text-green-400"/><span> NodeJS</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 cursor-pointer hover:border-white transition-all ease-in-out duration-400"><RiNextjsFill /><span> NextJS</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-700 hover:border-green-700 cursor-pointer transition-all ease-in-out duration-400"><DiMongodb className="text-green-600" /><span> MongoDB</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-300 hover:border-blue-300 cursor-pointer transition-all ease-in-out duration-400"><SiCplusplus /><span> C++</span></motion.div>
+                       <div  className=" px-2 py-3 flex flex-wrap gap-3 justify-center sm:justify-start items-center ">
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600/20 flex items-center gap-2 w-min rounded-md px-2 py-2 hover:text-blue-400 hover:border-blue-400 cursor-pointer transition-all ease-in-out duration-400 "><FaReact className="text-blue-400"/><span> React</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600/20 flex items-center gap-2 w-min rounded-md px-2 py-2 hover:text-green-400 hover:border-green-400 cursor-pointer transition-all duration-400 ease-in-out"><FaNodeJs  className="text-green-400"/><span> NodeJS</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600/20 flex items-center gap-2 w-min rounded-md px-2 py-2 cursor-pointer hover:border-white transition-all ease-in-out duration-400"><RiNextjsFill /><span> NextJS</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600/20 flex items-center gap-2 w-min rounded-md px-2 py-2 hover:text-green-700 hover:border-green-700 cursor-pointer transition-all ease-in-out duration-400"><DiMongodb className="text-green-600" /><span> MongoDB</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600/20 flex items-center gap-2 w-min rounded-md px-2 py-2 hover:text-blue-300 hover:border-blue-300 cursor-pointer transition-all ease-in-out duration-400"><SiCplusplus /><span> C++</span></motion.div>
                        
                        </div>
 
