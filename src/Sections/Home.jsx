@@ -18,21 +18,21 @@ function Home(){
         viewport={{once:true}}
          className="text-2xl text-white min-h-screen w-full flex flex-col py-15 px-5 md:flex-row sm:justify-center font-mono">
             <div className="sm:mt-20 flex flex-col justify-center items-center " >
-                <h1 className="font-bold text-xl sm:text-3xl lg:text-6xl sm:mt-5 lg:mt-12 font-mono "><span className="text-blue-700 font-mono">HI, I AM</span> ARYA✌️</h1> 
+                <h1 className="font-bold text-3xl sm:text-5xl lg:text-7xl sm:mt-5 lg:mt-12 "><span className="text-blue-700 ">HI,<span className=""> I AM</span></span> <span className="">ARYA✌️</span></h1> 
                 <div className="text-sm sm:text-md md:text-xl">
                 <div className="mt-5  text-blue-600 " >
                     <p>
                     I turn complex ideas into seamless, high-impact web experiences by<br /> building mordern, scalable and lightning fast web <br /> apps that make a diffrence. 
                 </p>
                 </div>
-             <div className="mt-6 mb-4 flex justify-center items-center text-sm sm:text-2xl font-semibold lg:text-4xl">
+             <div className="mt-6 mb-4 flex justify-center sm:justify-start items-center text-sm sm:text-2xl font-semibold lg:text-4xl">
                  <h1>
                      
                        <span>
                        <motion.div
                        transition={{ease:easeInOut, duration:2}} 
-                       className="h-auto w-auto px-5 bg-blue-700/10 py-2 rounded-lg ">
-                        <span className="text-blue-700">I'm a </span>
+                       className="h-auto w-auto px-5 bg-blue-700/10 py-2 rounded-lg mask-r-from-neutral-100 ">
+                        <span className="text-blue-700 ">I'm a </span>
                          <Typewriter
                         smooth
                         loop
@@ -50,11 +50,11 @@ function Home(){
                 
                        </div>
                        <div  className=" px-2 py-3 flex flex-wrap gap-3 justify-center items-center ">
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-400 hover:border-blue-400 cursor-pointer transition-all ease-in-out "><FaReact className="text-blue-400"/><span> React</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-400 hover:border-green-400 cursor-pointer transition-all ease-in-out"><FaNodeJs  className="text-green-400"/><span> NodeJS</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 cursor-pointer transition-all ease-in-out"><RiNextjsFill /><span> NextJS</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-700 hover:border-green-700 cursor-pointer transition-all ease-in-out"><DiMongodb className="text-green-600" /><span> MongoDB</span></motion.div>
-                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border border-white flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-300 hover:border-blue-300 cursor-pointer transition-all ease-in-out"><SiCplusplus /><span> C++</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-400 hover:border-blue-400 cursor-pointer transition-all ease-in-out duration-400 "><FaReact className="text-blue-400"/><span> React</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-400 hover:border-green-400 cursor-pointer transition-all duration-400 ease-in-out"><FaNodeJs  className="text-green-400"/><span> NodeJS</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 cursor-pointer hover:border-white transition-all ease-in-out duration-400"><RiNextjsFill /><span> NextJS</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-green-700 hover:border-green-700 cursor-pointer transition-all ease-in-out duration-400"><DiMongodb className="text-green-600" /><span> MongoDB</span></motion.div>
+                       <motion.div whileHover={{y:-2}} transition={{duration:0.1, easeInOut}} className="border-2 border-blue-600 flex items-center gap-2 w-min rounded-md px-2 py-1 hover:text-blue-300 hover:border-blue-300 cursor-pointer transition-all ease-in-out duration-400"><SiCplusplus /><span> C++</span></motion.div>
                        
                        </div>
 
@@ -78,7 +78,7 @@ function Home(){
         transition={{duration:0.4, ease:easeInOut}}
         viewport={{once:true}}
         className="flex justify-center items-center ">
-                 <img src={Avator} loading="eager" fetch-priority="high" alt="" className="h-80 lg:h-170 md:h-120 sm:w-120 " />
+                 <img src={Avator} loading="eager" fetch-priority="high" alt="" className="h-80 lg:h-170 md:h-120 sm:h-100 " />
          </motion.div>
               </motion.div>
        </section>

@@ -9,6 +9,11 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import { DiResponsive } from "react-icons/di";
 import { SiNetlify } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { DiMongodb } from "react-icons/di";
+import { FaNodeJs } from "react-icons/fa";
+import { SiCplusplus } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 
 function Skills(){
    
@@ -21,7 +26,7 @@ function Skills(){
                 whileInView={{opacity:1, y:0}}
                 transition={{ease:easeInOut, duration:0.4,}}
                 viewport={{once:true}}
-                className="flex justify-center text-3xl font-bold py-4 mb-10 animate-pulse text-blue-600">My Skills</motion.div>
+                className="flex justify-center items-center text-3xl font-bold py-4 mb-10 animate-pulse text-blue-600">Techs I work upon</motion.div>
              
              
 
@@ -30,35 +35,66 @@ function Skills(){
                 whileInView={{opacity:1, y:0}}
                 transition={{ease:easeInOut, duration:0.4}}
                 viewport={{once:true}}
-               className="flex  justify-center md:justify-between items-center flex-wrap gap-4 sm:gap-10 rounded-md md:px-14 ">
+               className="flex  justify-center items-center flex-wrap gap-15 sm:gap-10 rounded-md md:px-6 ">
 
-               <div className="min-h-screen border-2 w-80 border-blue-700">
-                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center">Frontend</div>
-               <div className="px-6 py-5 gap-8 flex justify-start flex-col">
-               <div className="h-auto w-full px-3 py-2 bg-blue-500/20"> <FaHtml5 className="text-orange-700"/></div>
-                <FaCss3 className="text-blue-600"/>
-                <FaJs className="text-yellow-400"/>
-                <FaReact className="text-blue-300"/>
-                <TbBrandFramerMotion className="text-purple-600"/>
+               <motion.div
+               whileHover={{y:-3}}
+               transition={{easeInOut, duration:0.3}}
+               >
+                
+               <div  className="h-auto md:min-h-screen border-2 w-100 border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-300 bg-blue-800/10 rounded-lg">
+                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center rounded-lg">Frontend</div>
+               <div className="px-10 py-5 gap-8 flex justify-start items-start sm:items-center flex-col ">
+               <div className="h-auto w-full px-3 py-1 bg-blue-500/20 border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300  flex gap-4 rounded-lg items-center justify-center"> <FaHtml5 size={40} className="text-orange-700 text-center"/><div className="text-center">HTML</div></div>
+                <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><FaCss3 size={40} className="text-blue-600"/> <div className="text-center">CSS</div></div>
+                <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><FaJs size={40} className="text-yellow-400"/><div className="text-center">Javascript</div></div>
+                <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center" ><FaReact size={40} className="text-blue-300"/><div className="text-center">React</div></div>
+                <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><TbBrandFramerMotion size={40} className="text-purple-600"/><div className="text-center">Framer</div></div>
+               <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"> <RiTailwindCssFill size={40} className="text-blue-300"/><div className="text-center">Tailwind</div></div>
                </div>
                </div>
+               </motion.div>
 
 
 
 
 
-               <div className="min-h-screen border w-80 border-blue-700">
-                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center">Backend</div>
+               <motion.div
+               whileHover={{y:-3}}
+               transition={{easeInOut, duration:0.3}}
+               >
+                 <div className="h-auto md:min-h-screen border-2 w-100 border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-400 bg-blue-800/10 rounded-lg">
+                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center rounded-lg">Backend</div>
+               <div className="px-10 py-5 gap-8 flex justify-start items-start sm:items-center flex-col">
+               <div className="h-auto w-full px-3 py-1 bg-blue-500/20 border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300  flex gap-4 rounded-lg items-center justify-center"> <FaNodeJs size={40} className="text-green-600 text-center"/><div className="text-center">Node.js</div></div>
+                <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><RiNextjsFill size={40} className="text-white"/> <div className="text-center">Next.js</div></div>
+                <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><DiMongodb size={40} className="text-green-400"/><div className="text-center">MongoDB</div></div>
+               
+         
                </div>
-
-
-
-
-
-
-               <div className="min-h-screen border w-80 border-blue-700">
-                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center">Languages</div>
                </div>
+               </motion.div>
+
+
+
+
+
+
+             <motion.div
+               whileHover={{y:-3}}
+               transition={{easeInOut, duration:0.3}}
+             >
+                 <div className="h-auto md:min-h-screen border-2 w-100 border-blue-500/20 hover:border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)]  transition-all ease-in-out duration-400 bg-blue-800/10 rounded-lg">
+                <div className="h-0.5 w-full border border-blue-700 px-4 py-10 text-center flex justify-center items-center rounded-lg">Langauges and Tools</div>
+               <div className="px-10 py-5 gap-8 flex justify-start items-start sm:items-center flex-col">
+               <div className="h-auto w-full px-3 py-1 bg-blue-500/20 border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300  flex gap-4 rounded-lg items-center justify-center"> <FaJs size={40} className="text-yellow-400 text-center"/><div className="text-center">Javascript</div></div>
+                <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><SiCplusplus size={40} className="text-blue-300"/> <div className="text-center">C++</div></div>
+                 <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><FaPython size={40} className="text-blue-500"/> <div className="text-center">Python</div></div>
+                                 <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><SiNetlify size={40} className="text-red-300"/> <div className="text-center">Netlify</div></div>         
+                 <div className="h-auto w-full border-2 border-blue-700 hover:shadow-[0_0_25px_rgba(37,99,235,0.7)] transition-all ease-in-out duration-300 px-3 py-2 bg-blue-500/20 flex gap-4 rounded-lg items-center justify-center"><FaGithub size={40} className="text-grey-300"/> <div className="text-center">Github</div></div>
+               </div>
+               </div>
+             </motion.div>
 
               </motion.div>
 

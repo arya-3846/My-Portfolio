@@ -23,7 +23,9 @@ body{
 }
 body::-webkit-scrollbar{
   display: none;
+
 }
-#crousel::-webkit-scrollbar{
-  display: none;
+#button-2{
+  box-shadow: 20px 0px 60px rgb(18, 18, 235);
+  
 }

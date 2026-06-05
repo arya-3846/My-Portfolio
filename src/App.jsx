@@ -8,8 +8,8 @@ import About from "./Sections/About";
 import Projects from "./Sections/Projects";
 import Skills from "./Sections/Skills";
 import Contact from "./Sections/Contact";
-import Footer from "./Sections/Footer";
-
+import Footer from  "./Sections/Footer"
+import Certi from "./Sections/Certi"
 function App(){
   const[introDone, setIntroDone]= useState(false);
   return(
@@ -25,8 +25,10 @@ function App(){
    <About/>
    <Skills/>
    <Projects/>
+   <Certi/>
    <Contact/>
    <Footer/>
+   
    </div>
    )}
    </>
