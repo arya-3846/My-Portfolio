@@ -1,9 +1,14 @@
 import { GrCertificate } from "react-icons/gr";
-
+import {motion, easeInOut} from "framer-motion"
 function Certi(){
     return(
       <section id="Certificates" className="py-15 h-auto px-5 ">
-          <div className="text-2xl text-white w-full">
+          <motion.div
+           initial={{opacity:0, y:-30}}
+           whileInView={{opacity:1, y:0}}
+           transition={{ease:easeInOut, duration:0.4}}
+           viewport={{once:true}}
+           className="text-2xl text-white w-full">
              
              <div>
               <div className="flex items-center justify-center font-bold text-blue-600 font-mono sm:text-3xl md:text-4xl py-10">
@@ -44,7 +49,7 @@ function Certi(){
        
 
 
-        </div>
+        </motion.div>
       </section>
     )
 }

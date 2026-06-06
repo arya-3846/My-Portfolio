@@ -38,7 +38,7 @@ export default function StarfieldBackground() {
 
         particles: {
           number: {
-            value:400,
+            value:600,
             density: {
               enable: true,
               area: 1000,
@@ -61,7 +61,7 @@ export default function StarfieldBackground() {
 
             animation: {
               enable: true,
-              speed: 2,
+              speed: 6,
               minimumValue: 0.5,
               sync: false,
             },

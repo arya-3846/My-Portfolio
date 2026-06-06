@@ -34,8 +34,8 @@ function Projects(){
                   </div>
                     <div className="h-0.5 w-full bg-white"></div>
                      <div className="flex px-3 gap-4 justify-center py-3 mb-10">
-                      <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600">Code</button>
-                      <a href="https://radiant-marzipan-34994c.netlify.app" className="text-center text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-2 py-2 rounded-lg" target="_blank">View project</a>
+                      <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600 hover:px-5 transition-all ease-in-out duration-200">Code</button>
+                      <a href="https://radiant-marzipan-34994c.netlify.app" className="text-center text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-2 py-2 rounded-lg hover:px-5 transition-all ease-in-out duration-200" target="_blank">View project</a>
                      </div>
                    </div>
                 </div>
@@ -65,8 +65,8 @@ function Projects(){
                   </div>
                    <div className="h-0.5 w-full bg-white"></div>
                      <div className="flex px-3 gap-4 justify-center py-3 mb-10">
-                     <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600">Code</button>
-                      <a href="https://magenta-marshmallow-32a9a0.netlify.app/" className=" text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg" target="_blank">View project</a>
+                     <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600 hover:px-5 transition-all ease-in-out duration-200">Code</button>
+                      <a href="https://magenta-marshmallow-32a9a0.netlify.app/" className=" text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg hover:px-5 transition-all ease-in-out duration-200" target="_blank">View project</a>
                      </div>
                    </div>
                 </div>
@@ -96,8 +96,8 @@ function Projects(){
                   </div>
                      <div className="h-0.5 w-full bg-white"></div>
                      <div className="flex px-3 gap-4 justify-center py-3 mb-10">
-                     <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600">Code</button>
-                      <a href="https://beautiful-beignet-8e7e76.netlify.app/" className="text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg" target="_blank">View project</a>
+                     <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600 hover:px-5 transition-all ease-in-out duration-200">Code</button>
+                      <a href="https://beautiful-beignet-8e7e76.netlify.app/" className="text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg hover:px-5 transition-all ease-in-out duration-200" target="_blank">View project</a>
                      </div>
                    </div>
                 </div>
@@ -126,8 +126,8 @@ function Projects(){
                   </div>
                        <div className="h-0.5 w-full bg-white"></div>
                      <div className="flex px-3 gap-4 justify-center py-3 mb-10">
-                   <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600">Code</button>
-                      <a href="https://my-portfolio-one-rho-56.vercel.app/" className="text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg " target="_blank">View Project</a>
+                   <button className="px-3 text-sm border-blue-600 border rounded-lg cursor-pointer py-1 text-center bg-blue-600 hover:px-5 transition-all ease-in-out duration-200">Code</button>
+                      <a href="https://my-portfolio-one-rho-56.vercel.app/" className="text-sm hover:text-blue-500 transition-all ease-in-out duration-150 border border-blue-600 px-3 py-2 rounded-lg hover:px-5 transition-all ease-in-out duration-200 " target="_blank">View Project</a>
                      </div>
                    </div>
                 </div>

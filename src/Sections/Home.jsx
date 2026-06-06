@@ -7,6 +7,11 @@ import { FaNodeJs } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { DiMongodb } from "react-icons/di";
 import { SiCplusplus } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { MdAlternateEmail } from "react-icons/md";
+
 function Home(){
     return(
        <section id="home" className="h-auto ">
@@ -16,13 +21,13 @@ function Home(){
         whileInView={{opacity:1, y:0}}
         transition={{duration:0.4}}
         viewport={{once:true}}
-         className="text-2xl text-white min-h-screen w-full flex flex-col py-15 px-5 md:flex-row sm:justify-center font-mono">
-            <div className="sm:mt-20 flex flex-col justify-center items-center " >
+         className="text-2xl text-white h-auto w-full flex flex-col py-15 px-5 md:flex-row sm:justify-center font-mono">
+            <div className="sm:mt-20 flex flex-col justify-start items-center md:items-start " >
                 <h1 className="font-bold text-3xl sm:text-5xl lg:text-7xl sm:mt-5 lg:mt-12 "><span className="text-blue-700 ">HI,<span className=""> I AM</span></span> <span className="">ARYA✌️</span></h1> 
                 <div className="text-sm sm:text-md md:text-xl">
-                <div className="mt-5  text-blue-600 " >
+                <div className="mt-5 sm:text-lg md:text-xl  text-blue-600 " >
                     <p>
-                    I turn complex ideas into seamless, high-impact web experiences by<br /> building mordern, scalable and lightning fast web <br /> apps that make a diffrence. 
+                    I turn complex ideas into seamless, high-impact web experiences by<br /> building mordern, responsive and lightning fast web <br /> apps that make a diffrence. 
                 </p>
                 </div>
              <div className="mt-6 mb-4 flex justify-center sm:justify-start items-center text-sm sm:text-2xl font-semibold lg:text-4xl">
@@ -60,13 +65,19 @@ function Home(){
 
                 <motion.div
                 
-                className="hidden sm:flex gap-7 justify-center items-center ">
+                className="hidden sm:flex gap-7 justify-start items-center ">
  
 
                     <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link to="projects" smooth={true} duration={500}> <button id="button" className="bg-blue-600 px-6 py-3 hover:cursor-pointer hover:shadow-lg transition-all duration-500 ease-in-out rounded-xl mt-10 ">Projects</button></Link></motion.div>
                     <motion.div whileHover={{y:-4}} smooth={true} duration={500}><Link smooth={true} duration={500}><button id="button" className="border-2 px-6 py-3 hover:cursor-pointer hover:shadow-lg transition-all duration-500 ease-in-out rounded-xl mt-10 hover:border-blue-600 hover:text-blue-600">Resume</button></Link></motion.div>
                 </motion.div>
                     
+                <div className="flex justify-center items-center gap-5 sm:justify-start mt-5 ">
+                 <motion.div whileHover={{y:-5}} transition={{ease:easeInOut, duration:0.3}} ><a href="https://github.com/arya-3846" target="_blank"><div   className="border-2 border-blue-500/20 hover:border-blue-600 transtion-all duration-300 ease-in-out px-2 py-2 rounded-full "><FaGithub size={20}/></div></a></motion.div>
+                 <motion.div whileHover={{y:-5}} transition={{ease:easeInOut, duration:0.3}}> <a href="https://www.linkedin.com/in/arya-pandey-b82634313" target="_blank"><div  className="border-2 border-blue-500/20 hover:border-blue-600 transtion-all duration-300 ease-in-out px-2 py-2 rounded-full "><FaLinkedin size={20}/></div></a></motion.div>
+                 <motion.div whileHover={{y:-5}} transition={{ease:easeInOut, duration:0.3}}> <a href="https://x.com/aryape3846" target="_blank"><div  className="border-2 border-blue-500/20 hover:border-blue-600 transtion-all duration-300 ease-in-out px-2 py-2 rounded-full "><FaXTwitter size={20}/></div></a></motion.div>
+                 <motion.div whileHover={{y:-5}} transition={{ease:easeInOut, duration:0.3}}><a href="mailto:aryape3846@gmail.com" target="_blank"> <div  className="border-2 border-blue-500/20 hover:border-blue-600 transtion-all duration-300 ease-in-out px-2 py-2 rounded-full "><MdAlternateEmail size={20}/></div></a></motion.div>
+                </div>
 
 
 
@@ -85,3 +96,4 @@ function Home(){
     )
 }
 export default Home
+
