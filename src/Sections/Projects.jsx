@@ -8,11 +8,11 @@ import { FaGithub } from "react-icons/fa";
 function Projects(){
     return(
         <motion.section 
-        initial={{opacity:0 , y:-100}}
+        initial={{opacity:0 , y:-30}}
         whileInView={{opacity:1, y:0}}
         transition={{duration:0.6, ease:easeInOut}}
         viewport={{once:true}}
-        id="projects" className="py-15 font-mono text-sm " >
+        id="projects" className="py-15 font-mono text-sm h-auto " >
             <div className="text-2xl text-white  w-full ">
              <div className="flex justify-center items-center py-5 px-5">
                <div className=""> <h1 className="text-4xl mb-5 text-blue-600 fborder-blue-700 font-bold">My Projects</h1></div>

@@ -1,7 +1,7 @@
 function Footer(){
     return(
        <section id="footer">
-         <div className="text-2xl text-white h-screen w-full">
+         <div className="text-2xl text-white h-auto w-full">
             footer
         </div>
        </section>

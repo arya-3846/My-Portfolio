@@ -9,7 +9,7 @@ import { DiMongodb } from "react-icons/di";
 import { SiCplusplus } from "react-icons/si";
 function Home(){
     return(
-       <section id="home" className="min-h-screen ">
+       <section id="home" className="h-auto ">
         
          <motion.div
         initial={{opacity:0, y:-20}} 

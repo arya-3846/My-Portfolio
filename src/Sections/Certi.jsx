@@ -2,7 +2,7 @@ import { GrCertificate } from "react-icons/gr";
 
 function Certi(){
     return(
-      <section id="Certificates" className="py-15 min-h-screen px-5 ">
+      <section id="Certificates" className="py-15 h-auto px-5 ">
           <div className="text-2xl text-white w-full">
              
              <div>
