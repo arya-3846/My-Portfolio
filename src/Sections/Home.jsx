@@ -13,6 +13,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
 function Home(){
+    
     return(
        <section id="home" className="h-auto ">
         
@@ -26,7 +27,7 @@ function Home(){
                 <h1 className="font-bold text-3xl sm:text-5xl lg:text-7xl sm:mt-5 lg:mt-12 "><span className="text-blue-700 ">HI,<span className=""> I AM</span></span> <span className="">ARYA✌️</span></h1> 
                 <div className="text-sm sm:text-md md:text-xl">
                 <div className="mt-5 sm:text-lg md:text-xl  text-blue-600 " >
-                    <p>
+                    <p className="">
                     I turn complex ideas into seamless, high-impact web experiences by<br /> building mordern, responsive and lightning fast web <br /> apps that make a diffrence. 
                 </p>
                 </div>
